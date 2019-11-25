@@ -1,0 +1,41 @@
+.container {
+  padding: 100px;
+  display: grid;
+  grid-template-columns: 3;
+  grid-template-rows: 3;
+  grid-template-areas:
+      "q w e"
+      "a s d"
+      "z x c";
+}
+
+.background {
+
+}
+.q {
+  grid-area: q;
+}
+.w {
+  grid-area: w;
+}
+.e {
+  grid-area: e;
+}
+.a {
+  grid-area: a;
+}
+.s {
+  grid-area: s;
+}
+.d {
+  grid-area: d;
+}
+.z {
+  grid-area: z;
+}
+.x {
+  grid-area: x;
+}
+.c {
+  grid-area: c;
+}
